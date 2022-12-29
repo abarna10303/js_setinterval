@@ -5,6 +5,6 @@ let stop=setInterval(function(time){
     {
         clearInterval(stop);
     }
-    document.write(new Date().getSeconds());
+    document.write(new Date().toLocaleTimeString());
     document.write("<br>");
 },3000)
